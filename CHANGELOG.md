@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.1
+
+**Trimmed to just enough context.** SKILL.md 13,583 -> 11,472 chars (-15.5%), README
+2,190 -> 1,651 (-24.6%). Explanation only — every command, flag and JSON action name is
+byte-identical.
+
+- Narrative walkthroughs of the browser flow become numbered command lists.
+- The `blocked: true` rule is kept and shortened: a blocked run may still have submitted
+  the order, so a naive retry buys twice.
+
 ## 1.0.0
 
 - Extracted from the bevo-docker image, where this playbook shipped as the bundled
